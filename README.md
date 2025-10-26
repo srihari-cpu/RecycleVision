@@ -1,73 +1,85 @@
-# Welcome to your Lovable project
+# RecycleVision 🌱
 
-## Project info
+A modern web application that helps classify different types of recyclable materials using machine learning technology. This project aims to promote environmental sustainability by making recycling easier and more accurate.
 
-**URL**: https://lovable.dev/projects/d728dfc1-8a55-42af-9b27-33ee42243cb9
+## Features
 
-## How can I edit this code?
+- **Real-time Classification**: Upload images of recyclable items and get instant classification results
+- **Multiple Material Categories**: Supports classification of:
+  - Cardboard
+  - Glass
+  - Metal
+  - Paper
+  - Plastic
+  - Non-recyclable trash
+- **User-friendly Interface**: Clean and intuitive design built with React and Tailwind CSS
+- **Responsive Design**: Works seamlessly across desktop and mobile devices
 
-There are several ways of editing your application.
+## Tech Stack
 
-**Use Lovable**
+- **Frontend**: React + TypeScript + Vite
+- **UI Components**: Shadcn UI
+- **Styling**: Tailwind CSS
+- **Database**: Supabase
+- **Motion Graphics**: Framer Motion
+- **State Management**: React Context
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d728dfc1-8a55-42af-9b27-33ee42243cb9) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js (v16 or higher)
+- Bun package manager
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Clone the repository:
 
-Follow these steps:
+```bash
+git clone https://github.com/srihari-cpu/RecycleVision.git
+cd RecycleVision
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. Install dependencies:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. Start the development server:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and visit `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Project Structure
 
-**Use GitHub Codespaces**
+```
+RecycleVision/
+├── src/
+│   ├── components/     # Reusable UI    components
+│   ├── contexts/       # React context providers
+│   ├── hooks/         # Custom React hooks
+│   ├── integrations/  # External service integrations
+│   ├── lib/           # Utility functions
+│   └── pages/         # Application pages
+├── public/            # Static assets
+└── supabase/         # Database migrations and configuration
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Contributing
 
-## What technologies are used for this project?
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Acknowledgments
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/d728dfc1-8a55-42af-9b27-33ee42243cb9) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- Thanks to all contributors who have helped shape RecycleVision
+- Special thanks to the open-source community for the amazing tools and libraries
+- Inspired by the global movement towards sustainable waste management
